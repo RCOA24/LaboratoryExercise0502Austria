@@ -77,7 +77,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(58, 22);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(143, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(162, 29);
             this.label1.TabIndex = 6;
@@ -100,7 +101,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(604, 296);
             this.Controls.Add(this.uploadbtn);
             this.Controls.Add(this.Findbtn);
@@ -109,6 +110,7 @@
             this.Controls.Add(this.lvdisplay);
             this.Name = "FrmStudentRecord";
             this.Text = "FrmStudentRecord";
+            this.Load += new System.EventHandler(this.FrmStudentRecord_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

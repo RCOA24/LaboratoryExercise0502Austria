@@ -53,5 +53,20 @@ namespace LaboratoryExercise0502Austria
             FrmStudentRecord frmrec = new FrmStudentRecord();
             frmrec.ShowDialog();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

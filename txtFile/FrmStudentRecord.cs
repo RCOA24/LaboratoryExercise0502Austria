@@ -52,5 +52,10 @@ namespace LaboratoryExercise0502Austria
         {
             MessageBox.Show("Succesfully Uploaded!");
         }
+
+        private void FrmStudentRecord_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
